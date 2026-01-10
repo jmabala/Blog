@@ -12,7 +12,7 @@ export default async function globalSetup() {
 
 // const mongod = await MongoMemoryServer.create({
   binary: {
-    version: '6.0.5', // or any supported version
+    version: '8.2.2', // or any supported version
   },
 });
 
