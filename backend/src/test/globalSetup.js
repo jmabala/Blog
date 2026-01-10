@@ -1,7 +1,7 @@
 import { MongoMemoryServer } from 'mongodb-memory-server'
 
 export default async function globalSetup() {
-//   const instance = await MongoMemoryServer.create({
+  const instance = await MongoMemoryServer.create({
 //     binary: {
 //       version: '6.0.6',
 //     },
@@ -10,7 +10,7 @@ export default async function globalSetup() {
 // e.g., backend/src/test/globalSetup.js
 // const { MongoMemoryServer } = require('mongodb-memory-server');
 
-const mongod = await MongoMemoryServer.create({
+// const mongod = await MongoMemoryServer.create({
   binary: {
     version: '6.0.6', // or any supported version
   },
